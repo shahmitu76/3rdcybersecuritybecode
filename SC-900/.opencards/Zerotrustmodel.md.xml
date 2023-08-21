@@ -1,0 +1,16 @@
+<info.opencards.core.FlashCardCollection serialization="custom">
+  <unserializable-parents/>
+  <list>
+    <default>
+      <size>0</size>
+    </default>
+    <int>0</int>
+  </list>
+  <info.opencards.core.FlashCardCollection>
+    <default>
+      <itColls/>
+      <properties/>
+      <syncStates/>
+    </default>
+  </info.opencards.core.FlashCardCollection>
+</info.opencards.core.FlashCardCollection>
