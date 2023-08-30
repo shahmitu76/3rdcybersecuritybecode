@@ -57,7 +57,7 @@ Write a shell script checking all the groups a user is part of and for each one 
 
 
 
-# WEB SCRAPING
+# WEB SCRAPING( Ref: https://www.youtube.com/watch?v=mtDoQDp0nj8)
 
 ****After learning how to use the curl command to get a page's HTML. You should write a script to get all the laptops from this webshop page and print each one of them on a line in your terminal.****
 
