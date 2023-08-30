@@ -1,0 +1,32 @@
+-H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36' 
+
+
+
+curl 'https://www.lenovo.com/be/nl/laptops/' \ -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36' 
+
+
+
+
+
+curl 'https://www.lenovo.com/be/nl/pc/' \
+  -H 'authority: www.lenovo.com' \
+  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7' \
+  -H 'accept-language: en-US,en;q=0.9,de;q=0.8,fr;q=0.7' \
+  -H 'cache-control: max-age=0' \
+  -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36' 
+  
+
+curl 'https://www.amazon.com.be/s?crid=J5K1X4I1IO0W&i=aps&k=hp%20laptop&ref=nb_sb_noss_1&sprefix=hp%20laptop%2Caps%2C392&url=search-alias%3Daps' \ -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36'
+
+
+curl 'https://www.amazon.com.be/s?crid=J5K1X4I1IO0W&i=aps&k=hp%20laptop&ref=nb_sb_noss_1&sprefix=hp%20laptop%2Caps%2C392&url=search-alias%3Daps'   -H 'authority: www.amazon.com.be'   -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'   -H 'accept-language: en-US,en;q=0.9,de;q=0.8,fr;q=0.7'   -H 'cookie: session-id=261-1607759-5361250; ubid-acbbe=262-7577084-9892524; lc-acbbe=en_GB; x-acbbe="6QF979jTqQbfdbngE@DAfobhmnrvP@He"; at-acbbe=Atza|IwEBIGViWMexf28YPKQCGT5SxumEnRCiy_0PErermqiLmNmsP5jsUBbvzluQs90tn1kFCm32ZnWVkDlYr4N1N2K0wgo01gdcmRmOo-PgvGc-CFGH0dhZlpR_MVrs4I5rakW3Bb1FyGrmNB0VeyWyA-l1958PN5lif0c4LCLNsOb0SN6piGrAUj2VK5Tdx1FTSX8pMeMpSwC3_QPdGJzh5kKIyCaYtKbaEcol4BxcUfFvuGlHYw; sess-at-acbbe="vQLPCaXoVq8arvWYhQ4WKgNQkmsCvc5D/08YoMqbzkw="; sst-acbbe=Sst1|PQG6RkAFv_X9H8iqXwMCMIo_CQKLBXG_L6asQxKZwUvtDzCJOghyCPaApIRGo8k1z-Q6EvGwGnuZVxcnsoqbeZa6rNLRcEtd57c5nrC7Ldb-O-0U6JqIRMe1-ltJo1atDnJP6D6ItRnIRNA3_90MVwoZCVJohMqbyQkHGo7Hy9brrX-4CH2A1ONOqp9DJ8cdnBCLwalwO8X9rii6NiOCoH10MzsjAgAGLlot3OvkYUcs_bXzFw156EM9OVB2VWTAmuKfiXuLBCONqsRR7mI3dQyBkqfZs6_G3MISKjs-JFDAXDw; i18n-prefs=EUR; s_nr=1677164646848-New; s_vnum=2109164646849%26vn%3D1; s_dslv=1677164646850; csd-key=eyJ3YXNtVGVzdGVkIjp0cnVlLCJ3YXNtQ29tcGF0aWJsZSI6dHJ1ZSwid2ViQ3J5cHRvVGVzdGVkIjpmYWxzZSwidiI6MSwia2lkIjoiMWM3NmZmIiwia2V5IjoiT3ZETG1nUWltYndKdzFBY0hOWXNMc2N2c3pnc05RTi9PWEY1eDZOcSs4NUMrTmFMY0YwVlRuejErZVBzUlkxZVh4ZHF0cCt4T2V6QmVZQ2g1OVNPcTB2NTl3OWttVGtCSWxsZDNVWlNTRTdySEx6L282eVp5WXlUcE53MFFzOTdMRFZwVTlqbThma3Z1Ty8wcWEvSUZ4VWNkbG1VSnBHdy8wTERIZWhCQ014bGxNTGJpNmI2Q3N3bGdscUZPalhZN3pnL1kxY1ExTFY0MUxzVXdwVEVUOFRRL1FBcERNRElSUThvb0xKcUJCZHMwUktxbStGMzYyNzBFc3IrRG1mRzlBSGFZbG5yRVBPb1hRbWpkUWVaL1dHRlNJeTZUYnBrWVA0QW1KTHd5eWhpOExnbTNaRytjcnl5MDVKQmxoVkg3aHFmTG5uSFJKOVJJdzJBSGhrSTVnPT0ifQ==; session-id-time=2082787201l; session-token=lHYYP7BPmjpHBLsLeNOoPN+bAa46XIEK2JOx6vMpI6m8rv+RwMLHFXxWsUYJvtf7nGIO44QmT7VwrIZShbP+aWd0SXyXjhdX/rw+zr0t1/8DoiNghs+ZATV3X2jDJdrIyrJ0Y4M5opYrcfSq1dctzTHL36/n2yANiQ6LTz6rZqE0FjbsVP1w3nZf43DR+E/+xKH8UCwOZhr7P06BhGo5juBFOH3/529JkpYyi8zWr8rSyZZoocbOUTC6MCNDdPXoqkJ8tiGFg8VjMGeh/GLii8WtPAl+GYaDaGKz3lr13IZrQ9NQKE5XruWmxcHQ3MhG7IhKpU6xa0KQiM2qTfWgaSfrAG4aMLpSvuZUqHK2HYE5zJQ6MVdZUjpusQnXc81AMyWVHJQGM3U=; csm-hit=tb:VP7162ZM3XY9B231VEZH+s-RTK41NSTJCQRYEP4KQTG|1693337615199&t:1693337615199&adb:adblk_no'   -H 'downlink: 10'   -H 'ect: 4g'   -H 'referer: https://www.amazon.com.be/s?k=hp+laptop&crid=1E69YN0WWQ9BG&sprefix=hp+laptop%2Caps%2C161&ref=nb_sb_noss_1'   -H 'rtt: 200'   -H 'sec-ch-ua: "Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"'   -H 'sec-ch-ua-mobile: ?0'   -H 'sec-ch-ua-platform: "Windows"'   -H 'sec-ch-ua-platform-version: "15.0.0"'   -H 'sec-fetch-dest: document'   -H 'sec-fetch-mode: navigate'   -H 'sec-fetch-site: same-origin'   -H 'sec-fetch-user: ?1'   -H 'upgrade-insecure-requests: 1'   -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36'   --compressed>>temp11.html
+
+ curl 'https://www.amazon.com.be/s?crid=J5K1X4I1IO0W&i=aps&k=hp%20laptop&ref=nb_sb_noss_1&sprefix=hp%20laptop%2Caps%2C392&url=search-alias%3Daps' \ -H 'user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36'>>temp13.html  -final
+
+<span class="a-size-base-plus a-color-base a-text-normal">HP Laptop 15s-fq0001sf PC Portable 15.6" FHD (Intel Celeron, RAM 4 Go, SSD 128 Go, AZERTY, Windows 11 Famille en Mode S) Gris Ardoise, Microsoft 365 Personnel inclus pendant 1 an</span>
+
+<span class="a-size-base-plus a-color-base a-text-normal">HP Laptop 15s-fq0001sf PC Portable 15.6" FHD (Intel Celeron, RAM 4 Go, SSD 128 Go, AZERTY, Windows 11 Famille en Mode S) Gris Ardoise, Microsoft 365 Personnel inclus pendant 1 an</span>
+
+<span class="a-size-base-plus a-color-base a-text-normal">HP Laptop 15s-fq0001sf PC Portable 15.6" FHD (Intel Celeron, RAM 4 Go, SSD 128 Go, AZERTY, Windows 11 Famille en Mode S) Gris Ardoise, Microsoft 365 Personnel inclus pendant 1 an</span>
+
+class="a-size-base-plus a-color-base a-text-normal
