@@ -86,4 +86,47 @@ Write a shell script checking all the groups a user is part of and for each one 
 9. End
 
 
+# RPC protocol
 
+Exercices
+⚠️⚠️⚠️ Please save your answers. Your coaches may ask you for a copy of all your answers at the end of the challenge. ⚠️⚠️⚠️
+
+**Ip : 10.12.1.4X With rpc protocol
+
+With the rpc protocol, how many users can you find ?
+Your response Your command
+
+![clipboard](https://i.imgur.com/DYWL2An.png)
+
+command:
+first connect to rpc client:
+rpcclient -U "" -N 10.12.1.36
+you will get thr rpc client cursor
+to see users: enumdomusers
+IT will give you the list of users as given above
+
+What is the rid of msfadmin?
+Your response Your command
+
+user: [mfsadmin] rid:[08bb8]
+same command as above
+What is the path of msfadmin's profile?
+Your response Your command
+##metasploitable#msfadmin#profile
+queryuser 0xbb8
+When did msadmin last change password?
+Your response Your command
+28 apr
+same command
+
+When should msfadmin change its password?
+Your response Your command
+13 sep
+
+ref: (https://www.computersecuritystudent.com/SECURITY_TOOLS/METASPLOITABLE/EXPLOIT/lesson4/index.html)
+
+
+SNMP
+SNMP stands for Simple Network Management Protocol which is used to exchange management information between network devices. SNMP allows an administrator to gather information about the host on which SNMP is running. It is also possible to modify this information.
+
+Managed devices such as routers, hubs, switches, servers and desktops are typically configured with SNMP. An SNMP-configured device often includes an agent, which performs functions such as collecting information about the environment that can be used later by other utilities.
