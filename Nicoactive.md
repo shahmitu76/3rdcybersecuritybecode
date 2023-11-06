@@ -63,7 +63,7 @@ Ip : 10.12.1.36
 8. Use theHarvester tool at becode.org. How many Linkedin Users? 
     ```bash
     theHarvester -d becode.org -b all  
-    ```   
+    ```
     > 0
 
 9.  Use theHarvester tool at becode.org. How many ip addresses did you find? 
@@ -182,7 +182,7 @@ scripting language such as Python, Perl, or Ruby.
             3306/tcp    -   48
             5432/tcp    -   83
             8180/tcp    -   2
-
+        
             TOTAL       -   ~347
         ```
 

